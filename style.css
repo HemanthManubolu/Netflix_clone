@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+.main {
+    background-image: url(Img/bg.jpg);
+    height: 110vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: (1024px, 786px)
+}
+body {
+    background-color: black;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.box {
+    height: 110vh;
+    width: 100%;
+    opacity: 0.25;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+    justify-content: space-between;
+}
+nav img {
+    color: red;
+    width: 1px;
+    position: relative;
+    z-index: 10;
+    justify-content: left;
+    width: 135px;
+    height: 2.25rem;
+    display: block;
+    right: 75px;
+}
+nav button {
+    position: relative;
+    z-index: -5px;
+}
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 112px);
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    position: relative;
+    gap: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.hero> :nth-child(1) {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+.hero> :nth-child(2) {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.seperation {
+    height: 5px;
+    background-color: rgb(66, 66, 66);
+}
+.click {
+    padding: 4px;
+    background-color: rgba(227, 202, 202, 0);
+    color: rgba(255, 255, 255, 0.925);
+    width: 84px;
+    border-radius: 5px;
+    border: 3px solid rgb(255, 247, 247);
+    background: transparent;
+    height: 29px;
+    font-weight: bolder;
+    margin: 8px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.click {
+    left: 100px;
+}
+.arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+    gap: 99px;
+}
+.click-red-sm {
+    border: 2px solid red;
+    width: 65px;
+    background-color: solid red;
+}
+.click-red {
+    background-color: red;
+    color: white;
+    padding: 0px 5px 3px;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.down {
+    -webkit-transform: rotate(45deg);
+}
+.main input {
+    padding: 6px 70px 6px 0px;
+    margin: 5px;
+    width: 160px;
+    font-weight: 900;
+    font-size: 105px;
+    border-radius: 5px;
+    color: white;
+    font-size: 9px;
+    background-color: rgba(20, 20, 20, 0.1);
+    border-color: 5px rgba(31, 29, 29, 0.4);
+}
+.click-red-sm {
+    background-color: red;
+    padding: 2px;
+    margin: 0;
+    height: 95px width 35px;
+    color: white;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    grid-row: 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 100px;
+    padding: 70px;
+    height: 35vh;
+}
+.first video {
+    position: absolute;
+    top: 75px;
+    right: -60px;
+    width: 425px;
+    height: 189px;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+}
+.first img {
+    width: 350px;
+    height: 400px;
+}
+.secImg {
+    position: relative;
+}
+.secImg img {
+    width: 450px;
+    position: relative;
+    z-index: 30;
+    height: 350px;
+    left: 70px;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75vw;
+    color: white;
+    gap: 90px;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 45px;
+    padding: 35px;
+    height: 50vh;
+}
+.second img {
+    width: 40vw;
+    height: 55vh;
+}
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    grid-row: 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 25px;
+    margin: 100px;
+    padding: 70px;
+    height: 35vh;
+}
+.third video {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    width: 325px;
+    height: 235px;
+    z-index: 10;
+    padding: 0;
+    margin: 0;
+}
+.third img {
+    width: 490px;
+    height: 400px;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+    color: white;
+    margin: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    gap: 90px;
+    margin: 45px;
+    padding: 35px;
+    height: 50vh;
+}
+.four img {
+    width: 40vw;
+}
+.faqbox:hover {
+    background-color: rgb(129, 129, 129);
+}
+.input {
+    text-align: center;
+    height: 25vh;
+}
+.write {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 400;
+}
+footer {
+    max-width: 90vw;
+    padding: 75px 0;
+}
+.footer-item {
+    align-items: center;
+}
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+footer .questions {
+    padding: 35px 0;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.end {
+    margin: 0;
+    padding: 0;
+    left: 100px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+.accord{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accord li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accord li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-size: 500;
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.accord label:hover {
+    background-color: #414141;
+    color: white;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 430px;
+    color: white;
+}
+input[type="radio"]{
+    display: none;
+}
+.accord .content{
+    background: #303030;
+    text-align: left;
+    font-size: 18px;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    color: white;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accord input[type="radio"]:checked + label + .content{
+    max-height: 550px;
+    padding: 30px 20px;
+}
+.accord input[type="radio"]:checked::after{
+    transform: rotate(135deg);
+}
+html{
+    scroll-behavior: smooth;
+}
